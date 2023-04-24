@@ -1,0 +1,11 @@
+D:\FraneK\EvolutionM\EvolutionM\bin\Debug\EvolutionM.exe.config
+D:\FraneK\EvolutionM\EvolutionM\bin\Debug\EvolutionM.exe
+D:\FraneK\EvolutionM\EvolutionM\bin\Debug\EvolutionM.pdb
+D:\FraneK\EvolutionM\EvolutionM\obj\Debug\EvolutionM.csproj.AssemblyReference.cache
+D:\FraneK\EvolutionM\EvolutionM\obj\Debug\EvolutionM.csproj.SuggestedBindingRedirects.cache
+D:\FraneK\EvolutionM\EvolutionM\obj\Debug\EvolutionM.Frmlogin.resources
+D:\FraneK\EvolutionM\EvolutionM\obj\Debug\EvolutionM.Properties.Resources.resources
+D:\FraneK\EvolutionM\EvolutionM\obj\Debug\EvolutionM.csproj.GenerateResource.cache
+D:\FraneK\EvolutionM\EvolutionM\obj\Debug\EvolutionM.csproj.CoreCompileInputs.cache
+D:\FraneK\EvolutionM\EvolutionM\obj\Debug\EvolutionM.exe
+D:\FraneK\EvolutionM\EvolutionM\obj\Debug\EvolutionM.pdb
