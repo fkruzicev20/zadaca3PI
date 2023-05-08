@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.dgvStudents = new System.Windows.Forms.DataGridView();
+            this.btnEvaulateStudent = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudents)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,11 +45,22 @@
             this.dgvStudents.Size = new System.Drawing.Size(776, 390);
             this.dgvStudents.TabIndex = 0;
             // 
+            // btnEvaulateStudent
+            // 
+            this.btnEvaulateStudent.Location = new System.Drawing.Point(649, 415);
+            this.btnEvaulateStudent.Name = "btnEvaulateStudent";
+            this.btnEvaulateStudent.Size = new System.Drawing.Size(112, 23);
+            this.btnEvaulateStudent.TabIndex = 1;
+            this.btnEvaulateStudent.Text = "Evauliraj studenta";
+            this.btnEvaulateStudent.UseVisualStyleBackColor = true;
+            this.btnEvaulateStudent.Click += new System.EventHandler(this.btnEvaulateStudent_Click);
+            // 
             // FrmStudents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnEvaulateStudent);
             this.Controls.Add(this.dgvStudents);
             this.Name = "FrmStudents";
             this.Text = "FrmStudents";
@@ -61,5 +73,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgvStudents;
+        private System.Windows.Forms.Button btnEvaulateStudent;
     }
 }
