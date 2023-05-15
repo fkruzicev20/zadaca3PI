@@ -9,3 +9,14 @@ D:\FraneK\EvolutionM\EvolutionM\obj\Debug\EvolutionM.csproj.GenerateResource.cac
 D:\FraneK\EvolutionM\EvolutionM\obj\Debug\EvolutionM.csproj.CoreCompileInputs.cache
 D:\FraneK\EvolutionM\EvolutionM\obj\Debug\EvolutionM.exe
 D:\FraneK\EvolutionM\EvolutionM\obj\Debug\EvolutionM.pdb
+C:\Users\PC\Source\Repos\fkruzicev20\zadaca3PI\EvolutionM\EvolutionM\bin\Debug\EvolutionM.exe.config
+C:\Users\PC\Source\Repos\fkruzicev20\zadaca3PI\EvolutionM\EvolutionM\bin\Debug\EvolutionM.exe
+C:\Users\PC\Source\Repos\fkruzicev20\zadaca3PI\EvolutionM\EvolutionM\bin\Debug\EvolutionM.pdb
+C:\Users\PC\Source\Repos\fkruzicev20\zadaca3PI\EvolutionM\EvolutionM\obj\Debug\EvolutionM.csproj.AssemblyReference.cache
+C:\Users\PC\Source\Repos\fkruzicev20\zadaca3PI\EvolutionM\EvolutionM\obj\Debug\EvolutionM.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Source\Repos\fkruzicev20\zadaca3PI\EvolutionM\EvolutionM\obj\Debug\EvolutionM.Frmlogin.resources
+C:\Users\PC\Source\Repos\fkruzicev20\zadaca3PI\EvolutionM\EvolutionM\obj\Debug\EvolutionM.Properties.Resources.resources
+C:\Users\PC\Source\Repos\fkruzicev20\zadaca3PI\EvolutionM\EvolutionM\obj\Debug\EvolutionM.csproj.GenerateResource.cache
+C:\Users\PC\Source\Repos\fkruzicev20\zadaca3PI\EvolutionM\EvolutionM\obj\Debug\EvolutionM.csproj.CoreCompileInputs.cache
+C:\Users\PC\Source\Repos\fkruzicev20\zadaca3PI\EvolutionM\EvolutionM\obj\Debug\EvolutionM.exe
+C:\Users\PC\Source\Repos\fkruzicev20\zadaca3PI\EvolutionM\EvolutionM\obj\Debug\EvolutionM.pdb
