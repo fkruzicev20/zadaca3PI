@@ -65,5 +65,10 @@ namespace Evaluation_Manager.Repositories
 
             return student;
         }
+
+        public static implicit operator StudentRepository(Student v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
