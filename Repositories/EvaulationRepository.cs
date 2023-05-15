@@ -61,7 +61,7 @@ namespace Evaluation_Manager.Repositories {
 
         public static void InsertEvaulation(Student student, Activity activity, Teacher teacher, int points) {
 
-            string sql = $"INSERT INTO Evaulations (idActivities,idStudents,idTeachers,EvaulationDate,Points) " " $VALUES({activity.id}, {student.id}, {teacher.id},GETDATE(), {points}";
+            string sql = $"INSERT INTO Evaulations (idActivities,idStudents,idTeachers,EvaulationDate,Points) VALUES({activity.id}, {student.id}, {teacher.id},GETDATE(), {points}";
 
             DB.OpenConnection();
             DB.ExecuteCommand(sql);
