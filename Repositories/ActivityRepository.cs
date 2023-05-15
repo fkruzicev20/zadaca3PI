@@ -14,9 +14,10 @@ namespace Evaluation_Manager.Repositories
         public static Activity GetActivity(int id)
         {
             Activity activity = null;
+
             string sql = $"SELECT * FROM Activities WHERE Id = {id}";
             DB.OpenConnection();
-            var render = DB.GetDataReader(sql);
+            var reader = DB.GetDataReader(sql);
             if (reader.HasRows)
             {
                 reader.Read();
