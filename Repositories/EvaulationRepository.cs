@@ -61,7 +61,7 @@ namespace Evaluation_Manager.Repositories {
 
         public static void InsertEvaulation(Student student, Activity activity, Teacher teacher, int points) {
 
-            string sql = $"INSERT INTO Evaulations (idActivities,idStudents,idTeachers,EvaulationDate,Points) VALUES({activity.id}, {student.id}, {teacher.id},GETDATE(), {points}";
+            string sql = $"INSERT INTO Evaluations (IdActivities, IdStudents,\r\nIdTeachers, EvaluationDate, Points) VALUES ({{activity.Id}}, {{student.Id}},\r\n{{teacher.Id}}, GETDATE(), {{points}})";
 
             DB.OpenConnection();
             DB.ExecuteCommand(sql);
@@ -69,7 +69,10 @@ namespace Evaluation_Manager.Repositories {
         }
 
         public static void UpdateEvaulation(Evaulation evaulation, Teacher teacher, int points) {
-            string sql=&"UPDATE Evaulations SET idTeachers={teacher.id}, Points={points}, EvaulationDate=GETUPDATE() WHERE idActivities={evaulation.Activity.id} AND"
+            string sql = $"UPDATE Evaluations SET IdTeachers = {teacher.Id}, Points = {points}, EvaluationDate = GETDATE() WHERE IdActivities = {evaulation.Activity.Id} AND IdStudents = {evaulation.Student.Id}";
+            DB.OpenConnection();
+            DB.ExecuteCommand(sql);
+            DB.CloseConnection();
         }
 
     }
