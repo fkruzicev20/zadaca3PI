@@ -76,6 +76,7 @@ namespace Evaluation_Manager.Models
                     grade=2;
                 } else {
                     grade=1;
+
                 }
             }
         }
