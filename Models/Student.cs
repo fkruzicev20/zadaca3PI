@@ -33,7 +33,8 @@ namespace Evaluation_Manager.Models
             bool hasSignature = true;
             if(IsEvaulationComplete()==true) {
                 foreach(var evaulation in GetEvaulations()) {
-                    if evaulation.IsSufficientForSignature() == false{
+                    if (evaulation.IsSufficientForSignature() == false)
+                        {
                         hasSignature = false;
                         break;
                     }
@@ -49,7 +50,8 @@ namespace Evaluation_Manager.Models
             bool hasGrade = true;
             if(IsEvaulationComplete()==true) {
                 foreach(var evaulation in GetEvaulations()) {
-                    if evaulation.IsSufficientForGrade() == false{
+                    if (evaulation.IsSufficientForGrade() == false)
+                        {
                         hasGrade = false;
                         break;
                     }
@@ -79,6 +81,7 @@ namespace Evaluation_Manager.Models
 
                 }
             }
+            return grade;
         }
 
     }   
